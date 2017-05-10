@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#456789"
+    android:orientation="horizontal">
+
+    <com.boredream.boreweibo.activity.horizontalscrollview.NestedListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.boredream.boreweibo.activity.horizontalscrollview.NestedListView>
+
+    <com.boredream.boreweibo.activity.horizontalscrollview.NestedListView
+        android:id="@+id/lv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.boredream.boreweibo.activity.horizontalscrollview.NestedListView>
+
+    <com.boredream.boreweibo.activity.horizontalscrollview.NestedListView
+        android:id="@+id/lv3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.boredream.boreweibo.activity.horizontalscrollview.NestedListView>
+
+</LinearLayout>
