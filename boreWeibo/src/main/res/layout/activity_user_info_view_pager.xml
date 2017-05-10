@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.boredream.boreweibo.activity.viewpager.Pull2RefreshViewPager
+        android:id="@+id/vp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.boredream.boreweibo.activity.viewpager.UserInfoViewPagerActivity">
+
+    </com.boredream.boreweibo.activity.viewpager.Pull2RefreshViewPager>
+
+    <ImageView
+        android:id="@+id/bgImg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_layout_height"
+        android:scaleType="centerCrop"
+        android:src="@drawable/visitor_me_cover"/>
+</FrameLayout>

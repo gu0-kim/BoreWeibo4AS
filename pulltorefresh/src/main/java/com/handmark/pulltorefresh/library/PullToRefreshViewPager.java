@@ -32,7 +32,7 @@ public class PullToRefreshViewPager extends PullToRefreshBase<ViewPager> {
 
 	@Override
 	public final Orientation getPullToRefreshScrollDirection() {
-		return Orientation.HORIZONTAL;
+		return Orientation.VERTICAL;
 	}
 
 	@Override

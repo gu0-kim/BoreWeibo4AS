@@ -39,6 +39,12 @@
         <activity android:name=".activity.ImageBrowserActivity"/>
         <activity android:name=".activity.UserInfoPullToScrollviewActivity">
         </activity>
+        <activity
+            android:name=".activity.viewpager.UserInfoViewPagerActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".activity.horizontalscrollview.HorizontalUserInfoActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.boredream.boreweibo.BaseActivity;
 import com.boredream.boreweibo.R;
+import com.boredream.boreweibo.activity.viewpager.UserInfoViewPagerActivity;
 import com.boredream.boreweibo.constants.AccessTokenKeeper;
 import com.boredream.boreweibo.constants.WeiboConstants;
 import com.sina.weibo.sdk.auth.Oauth2AccessToken;
@@ -45,7 +46,7 @@ public class LoginActivity extends BaseActivity {
             @Override
             public void onClick(View arg0) {
 //				mSsoHandler.authorize(new AuthListener());
-                startActivity(new Intent(LoginActivity.this, UserInfoPullToScrollviewActivity.class));
+                startActivity(new Intent(LoginActivity.this, UserInfoViewPagerActivity.class));
             }
         });
 
